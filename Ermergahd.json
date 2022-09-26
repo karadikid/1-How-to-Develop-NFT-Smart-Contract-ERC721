@@ -1,0 +1,24 @@
+{
+  "description": "Virtual Nexus NFT 721.",
+  "external_url": "https://virtualnex.us",
+  "image": "https://ipfs.filebase.io/ipfs/QmWMVzfRiah5Xr1hTtkyhqMfBmBukZ4YfpiM3REbWYX4ZC",
+  "name": "Ermergahd",
+  "attributes": [
+    {
+      "trait_type": "Eyepatch",
+      "value": "True"
+    },
+    {
+      "trait_type": "Moustache",
+      "value": "True"
+    },
+    {
+      "trait_type": "Website",
+      "value": "OmMyGod.com"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    }
+  ]
+}
