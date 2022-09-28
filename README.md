@@ -25,4 +25,4 @@ This project creates and NFT Collection and Mints one.
 ```
 [Rarible Link](https://testnet.rarible.com/token/0x29f2e69c6118bda91a0000ebb7b333ff8329cc44:0?tab=overview)
 
-[image](VN-Collection.png)
+![Rarible VN Collection](VN-Collection.png)
