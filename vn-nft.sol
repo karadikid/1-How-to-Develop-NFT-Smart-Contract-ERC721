@@ -15,9 +15,9 @@ contract VirtualNexus is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     constructor() ERC721("VirtualNexus", "VN") {}
 
     function safeMint(address to, string memory uri) public onlyOwner {
-        require((balanceOf(msg.sender) <= 5), "More than 5 NFTs not supported. Prevents DOS");
+        require(balanceOf(msg.sender) <= 5, "More than 5 NFTs not supported. Prevents DOS");
         uint256 tokenId = _tokenIdCounter.current();
-        _tokenIdCounter.increment();
+        _tokenIdCounter.increment();git 
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
     }
