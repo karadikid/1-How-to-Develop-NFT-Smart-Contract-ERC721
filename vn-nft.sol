@@ -7,7 +7,7 @@ import "@openzeppelin/contracts@4.7.3/token/ERC721/extensions/ERC721URIStorage.s
 import "@openzeppelin/contracts@4.7.3/access/Ownable.sol";
 import "@openzeppelin/contracts@4.7.3/utils/Counters.sol";
 
-contract VirtualNexua is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
+contract VirtualNexus is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
@@ -15,6 +15,7 @@ contract VirtualNexua is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     constructor() ERC721("VirtualNexus", "VN") {}
 
     function safeMint(address to, string memory uri) public onlyOwner {
+        require((balanceOf(msg.sender) <= 5), "More than 5 NFTs not supported. Prevents DOS");
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);

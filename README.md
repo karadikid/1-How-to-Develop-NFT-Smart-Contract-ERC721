@@ -5,7 +5,7 @@ This project creates and NFT Collection and Mints one.
 ## Create and Deploy
 ```
 1. Use OpenZeppelin Wizard to create ERC721 Solidity Contract
-2. Mintable, Autoincrement, Ownable, Burnable
+2. Mintable, Autoincrement, Enumerable, URIStorage, Ownable
 3. Create functions for minting and emit events
 4. Deploy to Rinkeby
 ```

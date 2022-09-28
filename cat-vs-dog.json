@@ -1,0 +1,24 @@
+{
+  "description": "Virtual Nexus NFT 721.",
+  "external_url": "https://virtualnex.us",
+  "image": "https://ipfs.filebase.io/ipfs/QmYctHbJDkbNpyCjm8KkYzTv2TA1J1byMZVXvrNyKQ8jzC",
+  "name": "Dog-vs-Cat",
+  "attributes": [
+    {
+      "trait_type": "Loyalty",
+      "value": "True"
+    },
+    {
+      "trait_type": "Defends",
+      "value": "True"
+    },
+    {
+      "trait_type": "Cat",
+      "value": "Shits-in-Box"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    }
+  ]
+}

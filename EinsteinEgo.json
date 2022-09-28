@@ -1,0 +1,24 @@
+{
+  "description": "Virtual Nexus NFT 721.",
+  "external_url": "https://virtualnex.us",
+  "image": "https://ipfs.filebase.io/ipfs/QmZsES29cR9CNubqTGH6Xfdb4F4grFwGWHm79o2oMuFEJK",
+  "name": "KnowledgeInverseEgo",
+  "attributes": [
+    {
+      "trait_type": "Knowledge",
+      "value": "High"
+    },
+    {
+      "trait_type": "Ego",
+      "value": "Low"
+    },
+    {
+      "trait_type": "Humility",
+      "value": "True"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    }
+  ]
+}

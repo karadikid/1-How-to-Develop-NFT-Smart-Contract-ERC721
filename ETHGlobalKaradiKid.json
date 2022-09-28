@@ -1,0 +1,24 @@
+{
+  "description": "Virtual Nexus NFT 721.",
+  "external_url": "https://virtualnex.us",
+  "image": "https://ipfs.filebase.io/ipfs/QmTfNVwBTFYKio1xjdBm4XAiXzmzvtjTgMJC2cbJYr6J24",
+  "name": "ETHGlobalAvatar",
+  "attributes": [
+    {
+      "trait_type": "Hat",
+      "value": "True"
+    },
+    {
+      "trait_type": "Sunglasses",
+      "value": "True"
+    },
+    {
+      "trait_type": "Beard",
+      "value": "True"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    }
+  ]
+}

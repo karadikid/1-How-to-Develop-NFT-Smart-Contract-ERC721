@@ -1,0 +1,24 @@
+{
+  "description": "Virtual Nexus NFT 721.",
+  "external_url": "https://virtualnex.us",
+  "image": "https://ipfs.filebase.io/ipfs/QmPBK4mNJwDvcPZm4NjK9ufboe2vXyL6A84g76GPZkivVw",
+  "name": "CryptoBro",
+  "attributes": [
+    {
+      "trait_type": "BroFist",
+      "value": "True"
+    },
+    {
+      "trait_type": "Finance",
+      "value": "True"
+    },
+    {
+      "trait_type": "ShadowySupercoder",
+      "value": "True"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    }
+  ]
+}
