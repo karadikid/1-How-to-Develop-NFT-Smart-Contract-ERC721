@@ -9,6 +9,7 @@ import "@openzeppelin/contracts@4.7.3/utils/Counters.sol";
 
 contract VirtualNexus is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
+    //Contract Address on Rinkeby 0x29F2E69c6118Bda91A0000eBB7b333fF8329cc44
 
     Counters.Counter private _tokenIdCounter;
 
