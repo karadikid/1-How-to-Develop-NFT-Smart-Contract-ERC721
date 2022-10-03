@@ -18,9 +18,9 @@ contract VirtualNexus is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     // Require and reserve tokens for safeMint https://forum.openzeppelin.com/t/best-way-to-limit-mint-to-1-per-wallet-and-reserve-x-token-for-owner/31007
 
     function safeMint(address to, string memory uri) public onlyOwner {
-        require(balanceOf(msg.sender) <= 5, "More than 5 NFTs not supported. Prevents DOS");
+        require(balanceOf(msg.sender) < 6, "More than 5 NFTs not supported. Prevents DOS");
         uint256 tokenId = _tokenIdCounter.current();
-        _tokenIdCounter.increment();git 
+        _tokenIdCounter.increment(); 
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
     }

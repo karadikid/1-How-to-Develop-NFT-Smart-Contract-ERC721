@@ -1,0 +1,24 @@
+{
+  "description": "13Fox Logo",
+  "external_url": "https://virtualnex.us",
+  "image": "https://ipfs.filebase.io/ipfs/QmUnC8rszymUnfepHi7B51qCfH8BkxikFpKGdZf6edsL4Q",
+  "name": "Rockhard 13F",
+  "attributes": [
+    {
+      "trait_type": "Title",
+      "value": "Rockhard 13Fox"
+    },
+    {
+      "trait_type": "Speed",
+      "value": "High"
+    },
+    {
+      "trait_type": "Drag",
+      "value": "Loq"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    }
+  ]
+}
